@@ -1,11 +1,8 @@
 import React from 'react'
+import Router from 'router/Router'
 
 const App: React.FC = () => {
-  return (
-    <div className="bg-white">
-      <p>Video Conference</p>
-    </div>
-  )
+  return <Router />
 }
 
 export default App
