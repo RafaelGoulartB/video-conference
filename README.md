@@ -2,20 +2,20 @@
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/rafael-goulartb/">
-      <img alt="Rafael Goulart" src="https://img.shields.io/badge/-RafaelGoulartB-47627e?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Rafael Goulart" src="https://img.shields.io/badge/-RafaelGoulartB-57728f?style=flat&logo=Linkedin&logoColor=white" />
    </a>
   <a href="https://github.com/RafaelGoulartB/video-conference#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-47627e.svg" target="_blank" />
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-57728f.svg" target="_blank" />
   </a>
   <a href="https://github.com/RafaelGoulartB/video-conference/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-47627e.svg" target="_blank" />
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-57728f.svg" target="_blank" />
   </a>
   <a href="https://github.com/RafaelGoulartB/video-conference/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-47627e.svg" target="_blank" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-57728f.svg" target="_blank" />
   </a>
-  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/RafaelGoulartB/video-conference?color=47627e" />
-  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/RafaelGoulartB/video-conference?color=47627e" />
-  <img alt="" src="https://img.shields.io/github/repo-size/RafaelGoulartB/video-conference?color=47627e" />
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/RafaelGoulartB/video-conference?color=57728f" />
+  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/RafaelGoulartB/video-conference?color=57728f" />
+  <img alt="" src="https://img.shields.io/github/repo-size/RafaelGoulartB/video-conference?color=57728f" />
 </p>
 
 > This project is made to show how to build a video conference with WebRTC.
