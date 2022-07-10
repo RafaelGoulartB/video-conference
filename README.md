@@ -82,9 +82,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Feel free to **file a new issue** with a respective title and description on the the [Video Conference](https://github.com/RafaelGoulartB/video-conference/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
-
 ---
-
 
 [⬆ Back to Top](#pushpin-table-of-contents)
 
