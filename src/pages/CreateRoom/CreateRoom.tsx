@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const CreateRoom: React.FC = () => {
   const [name, setName] = useState('')
@@ -83,9 +84,9 @@ const CreateRoom: React.FC = () => {
         </form>
 
         <div className="mt-4">
-          <a href="#" className="font-bold text-white underline">
+          <Link className="font-bold text-white underline" to="/join-room">
             Join Room
-          </a>
+          </Link>
         </div>
       </div>
     </main>
