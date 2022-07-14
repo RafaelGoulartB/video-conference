@@ -1,3 +1,5 @@
+import FormInput from 'components/Form/FormInput/FormInput'
+import FormButton from 'components/Form/FormButton/FormButton'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -31,12 +33,11 @@ const CreateRoom: React.FC = () => {
             <label htmlFor="name" className="text-sm text-white">
               Name
             </label>
-            <input
+            <FormInput
               id="name"
               type="text"
               value={name}
               placeholder="Name"
-              className="py-2 px-5 text-gray rounded-md focus:outline-secondary"
               onChange={(e: React.FormEvent<HTMLInputElement>) =>
                 setName(e.currentTarget.value)
               }
@@ -47,12 +48,11 @@ const CreateRoom: React.FC = () => {
             <label htmlFor="email" className="text-sm text-white">
               Email
             </label>
-            <input
+            <FormInput
               id="email"
               type="email"
               value={email}
               placeholder="Email"
-              className="py-2 px-5 text-gray rounded-md focus:outline-secondary"
               onChange={(e: React.FormEvent<HTMLInputElement>) =>
                 setEmail(e.currentTarget.value)
               }
@@ -63,24 +63,18 @@ const CreateRoom: React.FC = () => {
             <label htmlFor="roomName" className="text-sm text-white">
               Room Name
             </label>
-            <input
+            <FormInput
               id="roomName"
               type="text"
               value={roomName}
               placeholder="Ex: Design Critique"
-              className="py-2 px-5 text-gray rounded-md focus:outline-secondary"
               onChange={(e: React.FormEvent<HTMLInputElement>) =>
                 setRoomName(e.currentTarget.value)
               }
             />
           </div>
 
-          <button
-            className="py-2 px-12 my-4 font-bold text-white bg-primary rounded-md focus:ring-2 focus:ring-inset focus:ring-white"
-            type="submit"
-          >
-            Create
-          </button>
+          <FormButton title="Create" />
         </form>
 
         <div className="mt-4">
