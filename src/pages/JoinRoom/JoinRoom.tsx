@@ -12,10 +12,10 @@ const JoinRoom: React.FC = () => {
 
   return (
     <main className="flex items-center w-screen h-screen bg-gradient-to-r from-bg-color-s to-bg-color-e">
-      <div className="container flex flex-col justify-center items-center">
+      <div className="container flex flex-col justify-center items-center lg:max-w-none">
         <form
           onSubmit={onSubmit}
-          className="container flex flex-col gap-y-4 items-center mx-auto w-10/12  bg-gradient-to-r from-primary to-primary-darker rounded-md md:w-1/2"
+          className="container flex flex-col gap-y-4 items-center mx-auto w-10/12  bg-gradient-to-r from-primary to-primary-darker rounded-md md:w-1/2 xl:w-1/3"
         >
           <div
             id="form-header"
@@ -27,7 +27,7 @@ const JoinRoom: React.FC = () => {
             <p></p>
           </div>
 
-          <div className="flex flex-col w-80 font-bold">
+          <div className="flex flex-col w-4/5 font-bold md:w-80">
             <label htmlFor="name" className="text-sm text-white">
               Name
             </label>
@@ -43,7 +43,7 @@ const JoinRoom: React.FC = () => {
             />
           </div>
 
-          <div className="flex flex-col w-80 font-bold">
+          <div className="flex flex-col w-4/5 font-bold md:w-80">
             <label htmlFor="email" className="text-sm text-white">
               Email
             </label>
@@ -59,7 +59,7 @@ const JoinRoom: React.FC = () => {
             />
           </div>
 
-          <div className="flex flex-col w-80 font-bold ">
+          <div className="flex flex-col w-4/5 font-bold md:w-80">
             <label htmlFor="roomId" className="text-sm text-white">
               Room Id
             </label>
