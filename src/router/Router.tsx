@@ -12,7 +12,7 @@ const Router: React.FC = () => {
       <Route path="/" element={<Navigate to="create-room" replace />} />
       <Route path="/create-room" element={<CreateRoom />} />
       <Route path="/join-room" element={<JoinRoom />} />
-      <Route path="/call/:id" element={<Call />} />
+      <Route path="/call/:callId" element={<Call />} />
       <Route path="/end-call" element={<EndCall />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
