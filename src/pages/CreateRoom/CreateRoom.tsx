@@ -2,7 +2,7 @@ import FormInput from 'components/Form/FormInput/FormInput'
 import FormButton from 'components/Form/FormButton/FormButton'
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import Container from 'components/Container/Container'
+import ContainerStyle from 'components/Container/Container'
 
 const CreateRoom: React.FC = () => {
   const [name, setName] = useState('')
@@ -17,7 +17,7 @@ const CreateRoom: React.FC = () => {
   }
 
   return (
-    <Container centerContent>
+    <ContainerStyle centerContent>
       <form
         onSubmit={onSubmit}
         className="container flex flex-col gap-y-4 items-center mx-auto w-10/12  bg-gradient-to-r from-primary to-primary-darker rounded-md md:w-1/2 xl:w-1/3"
@@ -85,7 +85,7 @@ const CreateRoom: React.FC = () => {
           Join Room
         </Link>
       </div>
-    </Container>
+    </ContainerStyle>
   )
 }
 

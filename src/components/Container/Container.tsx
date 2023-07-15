@@ -5,7 +5,7 @@ interface ContainerProps {
   centerContent?: boolean
 }
 
-const Container: React.FC<ContainerProps> = ({
+const ContainerStyle: React.FC<ContainerProps> = ({
   children,
   centerContent = false
 }) => {
@@ -21,4 +21,4 @@ const Container: React.FC<ContainerProps> = ({
   )
 }
 
-export default Container
+export default ContainerStyle

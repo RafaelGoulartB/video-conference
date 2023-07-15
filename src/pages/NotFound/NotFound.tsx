@@ -1,10 +1,10 @@
-import Container from 'components/Container/Container'
+import ContainerStyle from 'components/Container/Container'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
 const NotFound: React.FC = () => {
   return (
-    <Container centerContent>
+    <ContainerStyle centerContent>
       <h1 className="text-6xl font-bold tracking-wider text-white md:text-8xl">
         404
       </h1>
@@ -17,7 +17,7 @@ const NotFound: React.FC = () => {
           Create a new Room
         </Link>
       </div>
-    </Container>
+    </ContainerStyle>
   )
 }
 
