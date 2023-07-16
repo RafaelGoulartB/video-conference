@@ -9,6 +9,8 @@ module.exports = {
     colors: {
       'bg-color-s': '#090e15',
       'bg-color-e': '#4e5760',
+      'bg-chat-color-s': '#3e4c5b',
+      'bg-chat-color-e': '#c3cdd6',
       primary: '#49627d',
       'primary-darker': '#3a5671',
       secondary: '#627b98',
@@ -29,6 +31,9 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem'
+      },
+      height: {
+        'room-height': '96%'
       }
     }
   },
