@@ -7,6 +7,7 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
+      transparent: 'transparent',
       'bg-color-s': '#090e15',
       'bg-color-e': '#4e5760',
       'bg-chat-color-s': '#3e4c5b',
