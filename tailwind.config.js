@@ -19,7 +19,8 @@ module.exports = {
       'dark-gray': '#131b26',
       white: '#ffffff',
       red: '#f8000f',
-      green: '#009d23'
+      green: '#009d23',
+      'transparent-black': 'rgba(0,0,0, .52)'
     },
     fontFamily: {
       sans: ['Lato', 'sans-serif'],
